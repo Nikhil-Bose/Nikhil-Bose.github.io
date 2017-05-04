@@ -31,7 +31,7 @@ header p {
 .jumbotron {
   display: flex;
   align-items: center;
-  background-image: url('http://ucsdnews.ucsd.edu/news_uploads/130312geisel.jpg');
+  background-image: url('http://www.momusmarketing.com/wp-content/uploads/2014/04/design-technology-business.jpg');
   background-size: cover;
   color: #ffffff;
   height: 500px;
@@ -55,7 +55,10 @@ section .row img {
   width: 100%;
 }
 
-
+.carousel .img{
+    height: 500px;
+    width: 100%;
+}
 section .row .col-md-4 img{
   margin: 0 0 30px;
   Height: 150px;
