@@ -74,12 +74,11 @@ section .row .col-md-12 {
 }
 
 
-section .row .col-sm-12 img {
+section .row .text-center img {
     width:200px;
     height: 200px;
     
 }
-
 
 .btn.btn-primary {
   border-radius: 2px;
