@@ -45,6 +45,10 @@ header p {
   color: #fff;
 }
 
+.carousel img{
+    height: auto;
+    width: auto;
+}
 .jumbotron h3 {
   margin: 0 0 20px;
   color: #fff;
