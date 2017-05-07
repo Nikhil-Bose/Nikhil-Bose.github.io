@@ -55,18 +55,14 @@ section .row img {
   width: 100%;
 }
 
-.carousel .img{
-    height: 500px;
-    width: 100%;
-}
+
 section .row .col-md-4 img{
   margin: 0 0 30px;
   Height: 150px;
 }
 
 section .row .display-1{
-    text-align: center;
-    font: 'Helvetica-Neue';
+    text-align: left;
 }
 
 .col-md-6 {
@@ -77,9 +73,13 @@ section .row .col-md-12 {
     text-align: left;
 }
 
-section .row li{
-    text-align: left;
+
+section .row .col-sm-12 img {
+    width:200px;
+    height: 200px;
+    
 }
+
 
 .btn.btn-primary {
   border-radius: 2px;
