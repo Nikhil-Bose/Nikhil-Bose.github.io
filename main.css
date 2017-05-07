@@ -1,5 +1,5 @@
 body {
-  font-family: 'Helvetica Neue';
+  font-family: 'Open Sans', sans-serif;
   font-weight: 300;
 }
 
@@ -64,12 +64,17 @@ section .row .col-md-4 img{
   Height: 150px;
 }
 
+section .row .display-1{
+    text-align: center;
+    font: 'Helvetica-Neue';
+}
+
 .col-md-6 {
   margin: 0 0 30px;
 }
 
 section .row .col-md-12 {
-    text-align: center;
+    text-align: left;
 }
 
 section .row li{
