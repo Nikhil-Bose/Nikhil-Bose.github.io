@@ -1,3 +1,5 @@
 # A Website about me 
-# Made with love in HTML, CSS and Bootstrap
 
+A short informational website about me 
+
+Made with <3 in San Diego with lots and Lots of Bootstrap
