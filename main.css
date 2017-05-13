@@ -55,14 +55,18 @@ header p {
 }
 
 section .row img {
-  margin: 0 0 30px;
-  width: 100%;
+    margin: 0 0 20px;
+    width: 100%;
 }
 
 
-section .row .col-md-4 img{
-  margin: 0 0 30px;
-  Height: 150px;
+section .row .col-md-4 {
+    text-align: left;
+}
+
+
+section ul .col-md-12{
+    list-style: none;
 }
 
 section .row .display-1{
