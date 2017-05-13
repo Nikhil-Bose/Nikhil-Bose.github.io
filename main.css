@@ -30,15 +30,16 @@ header p {
 
 .jumbotron {
   display: flex;
-  align-items: center;
-  background-image: url('http://www.momusmarketing.com/wp-content/uploads/2014/04/design-technology-business.jpg');
+  background-image: url('http://static.wixstatic.com/media/c214e1_448cc7f4ade84e5c93904c43bb93f564.jpg_srz_980_653_85_22_0.50_1.20_0.00_jpg_srz');
+    align-items: center;
   background-size: cover;
   color: #ffffff;
   height: 500px;
   text-shadow: 0.25px 0.25px 0.25px #000000;
+  border-radius: 5px;
 }
 
-.jumbotron h2 {
+.jumbotron h1 {
   font-size: 60px;
   font-weight: 700;
   margin: 0;
@@ -58,7 +59,7 @@ section .row img {
     margin: 0 0 10px;
     max-width: 90%;
     max-height: 90%;
-}
+    }
 
 
 section .row .col-md-4 {
