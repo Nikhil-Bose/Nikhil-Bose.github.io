@@ -52,12 +52,28 @@ header p {
   padding: 5px;
 }
 
+section{
+ padding-bottom: 50px;    
+}
+
 section .row img {
     margin: 0 0 10px;
     max-width: 90%;
     max-height: 90%;
+    border-radius: 8px;
     }
 
+section h2 {
+    font-weight: bold;
+    font-size: 50px;
+    text-align: left;
+}
+section h3 {
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center; 
+    justify-content: center;
+}
 
 section .row .col-md-4 {
     text-align: left;
@@ -68,15 +84,7 @@ section ul .col-md-12{
 }
 
 section .row .display-1{
-    text-align: left;
-}
-
-.col-md-6 {
-  margin: 0 0 30px;
-}
-
-section .row .col-md-12 {
-    text-align: left;
+    text-align: center  ;
 }
 
 section .row .text-center {
@@ -84,29 +92,10 @@ section .row .text-center {
 }
 
 section .row .text-center img {
-    width:150px;
-    height: 150px;
+    width:120px;
+    height: 120px;
     padding: 20px;
     
-}
-
-.btn.btn-primary {
-  border-radius: 2px;
-  border: 0px;
-  color: #fbd1d5;
-  text-shadow: none;
-  background-color: #ffffff;
-}
-
-.btn.btn-primary:hover {
-  color: #ffffff;
-  background-color: #fbd1d5;
-}
-
-.btn-secondary {
-  background-color: #E8DFE0;
-  color: #ffffff;
-  margin: 0 0 30px;
 }
 
 footer {
