@@ -1,58 +1,55 @@
 body {
   font-family: 'Open Sans', sans-serif;
   font-weight: 300;
+   background: white !important;
 }
 
 header {
   padding: 20px 0;
 }
 
-header .row,
+header .row{
+  display: flex;
+  align-items: center;
+  color: black;
+}
 footer .row {
   display: flex;
   align-items: center;
+
 }
 
 header h1 {
-  font-weight: 700;
-  margin: 0;
+  font-weight: 800;
+  font-size: 100px;
+  padding-top: 200px;
+  text-align: center;
+  
+}
+header h2 {
+  font-weight: 400;
+  font-size: 40px;
+  padding-bottom: 50px;
+  text-align: center;
+  
 }
 
 header nav {
   display: flex;
-  justify-content: flex-end;
+  padding-bottom: 150px;
+  justify-content: center;
 }
 
 header p {
-  padding: 0 20px;
   margin: 0;
-}
-
-.jumbotron {
-  display: flex;
-  background-image: url('http://static.wixstatic.com/media/c214e1_448cc7f4ade84e5c93904c43bb93f564.jpg_srz_980_653_85_22_0.50_1.20_0.00_jpg_srz');
-    align-items: center;
-  background-size: cover;
-  color: #ffffff;
-  height: 500px;
-  text-shadow: 0.25px 0.25px 0.25px #000000;
-  border-radius: 5px;
-}
-
-.jumbotron h1 {
-  font-size: 60px;
-  font-weight: 700;
-  margin: 0;
-  color: #fff;
-}
-
-.carousel img{
-    height: auto;
-    width: auto;
-}
-.jumbotron h3 {
-  margin: 0 0 20px;
-  color: #fff;
+  font-size: 20px;
+  height: 50px;
+  width: 200px;
+  border: 2px solid black;
+  border-radius: 10px;
+  text-align:center;
+  vertical-align: middle;
+  padding: 5px;
 }
 
 section .row img {
@@ -65,7 +62,6 @@ section .row img {
 section .row .col-md-4 {
     text-align: left;
 }
-
 
 section ul .col-md-12{
     list-style: none;
@@ -88,8 +84,8 @@ section .row .text-center {
 }
 
 section .row .text-center img {
-    width:200px;
-    height: 200px;
+    width:150px;
+    height: 150px;
     padding: 20px;
     
 }
